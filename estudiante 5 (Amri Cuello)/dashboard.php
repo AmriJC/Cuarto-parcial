@@ -1,9 +1,9 @@
 <?php
 session_start();
-require '../Estudiante 1/conexion.php';
+require '../Estudiante 1 (Carlos Sequera)/conexion.php';
 
 if (!isset($_SESSION['uuid'])) {
-    header("Location: ../estudiante 4/index.html");
+    header("Location: ../estudiante 4 (Luis Lombana)/index.html");
     exit;
 }
 

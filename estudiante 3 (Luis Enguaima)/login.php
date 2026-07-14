@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../Estudiante 1/conexion.php';
+require '../Estudiante 1 (Carlos Sequera)/conexion.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $correo_in = filter_var($_POST['correo'] ?? '', FILTER_SANITIZE_EMAIL);
@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         session_regenerate_id(true);
         $_SESSION['uuid'] = $usuario_data['id_usuario'];
         $_SESSION['status'] = 'auth_valid';
-        header("Location: ../estudiante 5/dashboard.php");
+        header("Location: ../estudiante 5 (Amri Cuello)/dashboard.php");
         exit;
     } else {
         sleep(1);

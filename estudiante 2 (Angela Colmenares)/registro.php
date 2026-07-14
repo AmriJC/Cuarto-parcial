@@ -1,5 +1,5 @@
 <?php
-require '../Estudiante 1/conexion.php';
+require '../Estudiante 1 (Carlos Sequera)/conexion.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $correo_raw = $_POST['correo'] ?? '';
