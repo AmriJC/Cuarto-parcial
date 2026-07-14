@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Carlos Sequera | [carloseduardosequeracastillo](https://github.com/carloseduardosequeracastillo) | DBA / Git Master | Schema DDL, conexión PDO |
 | Angela Colmenares | [Angela568](https://github.com/Angela568) | Arquitecta de Persistencia | Registro de usuarios (DML) |
-| Luis Enguaima | — | Oficial de Seguridad | Login, auditoría Zero Trust |
+| Luis Enguaima | [LuisEng34](https://github.com/LuisEng34) | Oficial de Seguridad | Login, auditoría Zero Trust |
 | Luis Lombana | [luislom1](https://github.com/luislom1) | Ingeniero de Interfaz / UX | Frontend HTML5/CSS3 |
 | Amri Cuello | [AmriJC](https://github.com/AmriJC) | Analista de Optimización | Dashboard, merges finales |
 
