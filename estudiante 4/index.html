@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capa de Presentación</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: monospace;
+            padding: 2rem;
+            background-color: #f4f4f9;
+        }
+
+        .auth-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 2rem;
+            border: 1px solid #ccc;
+            background: #fff;
+        }
+
+        .input-group {
+            margin-bottom: 1.5rem;
+        }
+
+        input {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid #aaa;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input:focus:invalid {
+            border-color: #e74c3c;
+            background-color: #fadbd8;
+        }
+
+        input:focus:valid {
+            border-color: #2ecc71;
+            background-color: #d5f5e3;
+        }
+
+        button {
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            background: #34495e;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <form action="../estudiante 3/login.php" method="POST">
+            <div class="input-group">
+                <input type="email" name="correo" placeholder="usuario@dominio.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            </div>
+            <div class="input-group">
+                <input type="password" name="clave" placeholder="Credencial de acceso" required minlength="8">
+            </div>
+            <button type="submit">Autenticar Módulo</button>
+        </form>
+    </div>
+</body>
+</html>
