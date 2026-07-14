@@ -26,7 +26,7 @@
 │   └── index.html            # Frontend con Box Model y validación CSS
 ├── estudiante 5 (Amri Cuello)/
 │   └── dashboard.php         # Dashboard con consultas optimizadas (WHERE, ORDER BY, LIMIT)
-└── EVALUACION DE LENGUAJE DE PROGRAMACIÓN 1 ,GRUPO 1.pdf
+└── Evaluacion_Grupo1.pdf
 ```
 
 ## Historial de Commits
